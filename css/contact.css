@@ -1,0 +1,55 @@
+*{                         
+  	margin: 0;
+  	padding: 0;
+    font-family: latha;
+  }
+   header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('../image/download.jpg');
+    margin-top: 0px;
+    height: 97vh;
+   background-size: cover;
+    background-position: center;
+
+  }   
+   ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+  }
+
+  ul li{
+    display: inline-block;
+  }
+  ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+   }
+   ul li a:hover{
+    background-color: black;
+}
+/*.box3{
+    position: absolute;
+    bottom:  35%;
+    }*/
+.box3 h3{
+    font-size: 50px;
+    margin-top: 15px;
+    color: #fff;
+    padding: 25px;
+    margin-left: 500px;
+     }
+     .box3 h5{
+    font-size: 20px;
+    color: white;
+    padding: 15px;  
+    margin-left: 500px;
+}
+.box4{
+    max-width: 100px;
+}
+section{
+    margin-left: 30em;
+}
